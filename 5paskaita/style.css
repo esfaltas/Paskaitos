@@ -1,0 +1,78 @@
+body {
+    background: #eee;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    height: 4rem;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.container {
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 50%;
+}
+
+section img {
+    width: 100%;
+}
+
+section h2 {
+    text-align: center;
+}
+section p {
+    text-align: justify;
+    font-size: 11px;
+}
+
+nav {
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.product {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .product img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+  
+  .product .price-tag {
+    font-weight: normal;
+  }
+
+  h3 {
+      text-align: center;
+  }
+
+  .map img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+  footer {
+    text-align: center;
+    color: #555;
+    padding: 15px;
+  }
