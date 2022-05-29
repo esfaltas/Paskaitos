@@ -1,0 +1,35 @@
+table td {
+    padding: 10px 50px 10px 10px;
+    text-align: justify;
+}
+
+tr4:nth-child(even) {
+    background-color: pink;
+}
+
+tr4:nth-child(odd) {
+    background-color: palevioletred;
+}
+
+table {
+    color: white;
+}
+
+.pirma {
+    background-color: blueviolet;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.antra, .ketvirta {
+    background-color: palevioletred;
+}
+
+.trecia, .penkta {
+    background-color: pink;
+}
+
+.antra, .ketvirta, .trecia, .penkta {
+    font-family: Arial, Helvetica, sans-serif;
+}

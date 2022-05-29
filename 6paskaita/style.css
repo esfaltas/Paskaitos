@@ -1,0 +1,32 @@
+td {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+}
+
+.pirma {
+    font-weight: 600;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+tr:first-child td:nth-child(3) {
+    background-color: blue;
+}
+
+.antra td:nth-child(2) {
+    background-color: orange;
+    color: white; 
+}
+

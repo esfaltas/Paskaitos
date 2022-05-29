@@ -1,0 +1,112 @@
+body {
+    color: #fffff0;
+}
+
+
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: black
+  }
+
+header img {
+    width: 200px;
+}
+
+header h1 {
+    color: white;
+    text-align: left;
+}
+
+header nav {
+    text-align: right;
+    background-color: rgb(255, 216, 42);
+    padding: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+  }
+
+nav a {
+      text-decoration: none;
+      color: white;
+      margin: 20px;
+}
+
+#about p {
+    color: black;
+    text-align: justify;
+}
+
+#about h2 {
+    color: black;
+    text-align: left;
+}
+
+#about {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#about a {
+    padding: 10px 50px;
+    background-color: #d11e00;
+    border-radius: 10px;
+    color: white;
+  }
+
+#tables {
+    background-color: #021749;
+    padding: 20px 0px;
+}
+
+ section h2 {
+     color: white;
+ }
+
+ table,
+ th,
+ td {
+    border: solid 1px red;
+    border-collapse: collapse;
+ }
+
+ table {
+    width: 100%;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  td:last-child,
+  tr:last-child {
+      text-align: right;
+      font-weight: 600;
+      padding: 10px;
+  }
+
+#contacts h2,
+#contacts ul {
+  text-align: left;
+  color: black;
+}
+
+#about,
+#contacts {
+  color: black;
+  text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #d6b731;
+    padding: 20px 0;
+    color: white;
+    margin-top: 20px;
+  }
