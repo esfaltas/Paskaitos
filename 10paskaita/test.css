@@ -1,0 +1,35 @@
+header {
+    height: 200px;
+    background-color: aquamarine;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftside {
+    display: flex;
+    flex-basis: 200px;  
+    flex-grow: 1;   
+    background-color: blanchedalmond;
+}
+
+.rightside {
+    display: flex;
+    flex-basis: 200px; 
+    flex-grow: 1;  
+    background-color: rgb(211, 231, 255);
+}
+
+.topline {
+    height: 50px;
+    background-color: black;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 400px;
+}

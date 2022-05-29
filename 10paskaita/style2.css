@@ -1,0 +1,86 @@
+header {
+    background-color: rgb(33, 184, 134);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    font-size: 26px;
+}
+
+header h2 {
+    font-size: 14px;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    max-width: 3000px;
+}
+
+body a {
+    margin-top: 15px;
+}
+
+.top {
+    background-color: black;
+    padding: 10px;
+}
+
+.top a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.leftside {
+    display: flex;
+    flex-basis: 600px; 
+    flex-grow: 0;  
+    background-color: rgb(197, 197, 197);
+    flex-direction: column;
+    padding: 20px;
+}
+
+.profile {
+    flex-shrink: 1;
+    height: 130px;
+    object-fit: cover;
+    padding-top: 10px;
+}
+
+.bottompics {
+    flex-shrink: 1;
+    height: 50px;
+    object-fit: cover;
+    padding-top: 10px;
+}
+
+.rightside {
+    display: flex;
+    flex-basis: 600px;
+    max-width: fit-content;
+    flex-grow: 1;  
+    flex-direction: column;
+    padding: 20px;
+}
+
+.rightside img {
+        flex-shrink: 1;
+        height: 130px;
+        object-fit: cover;
+        padding-top: 10px;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 600px;
+    flex-grow: 1;
+}
