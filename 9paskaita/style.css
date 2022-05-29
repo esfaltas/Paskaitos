@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header div {
+    height: 70px;
+    background-color: orange;
+    width: 48%;
+    margin: 1%;
+}
+
+a {
+    display: flex; 
+}
+
+a div {
+    height: 230px;
+    background-color: rgba(208, 226, 46, 0.986);
+    width: 100%;
+    margin: 1%;
+}
+
+article {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+article div {
+    height: 150px;
+    background-color: rgba(58, 111, 224, 0.986);
+    width: 32%;
+    margin: 6px;
+}
+
+section {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+section div {
+    height: 80px;
+    background-color: rgba(88, 88, 88, 0.986);
+    width: 23%;
+    margin: 1%;
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: Lato, sans-serif;
+    max-width: 1200px;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+header img {
+    height: 50px;
+}
+
+button {
+    background-color: #b6b6b6;
+    border: none;
+    color: white;
+    padding: 1rem;
+}
+
+div img {
+    width: 18%;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+div {
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
