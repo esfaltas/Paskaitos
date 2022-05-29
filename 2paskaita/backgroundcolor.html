@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="Chrome" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your title here</title>
+    <style>
+      div {
+        width: 200px;
+        text-align: left;
+      }
+
+      h1 {
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Color Generator</h1>
+      <h2>Available colors</h2>
+      <ul>
+        <li>Purple</li>
+        <li>Black</li>
+        <li>Chaki</li>
+      </ul>
+      <button>Switch colors</button>
+    </div>
+    <script>
+      document.querySelector("button").addEventListener("click", function () {
+        document.body.style.background = randomColor();
+      });
+
+      function randomColor() {
+        return (
+          "#" +
+          (function partOfColor(cratedPartOfHex) {
+            return (cratedPartOfHex +=
+              [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "a", "b", "c", "d", "e", "f"][
+                Math.floor(math.random() * 16)
+              ] && cratedPartOfHex.length == 6)
+              ? cratedPartOfHex
+              : partOfColor(cratedPartOfHex);
+          })("")
+        );
+      }
+    </script>
+  </body>
+</html>
